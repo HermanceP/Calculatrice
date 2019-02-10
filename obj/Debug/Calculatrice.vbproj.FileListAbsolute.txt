@@ -1,0 +1,12 @@
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\bin\Debug\Calculatrice.exe.config
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\bin\Debug\Calculatrice.exe
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\bin\Debug\Calculatrice.pdb
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\bin\Debug\Calculatrice.xml
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.vbprojAssemblyReference.cache
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.Form1.resources
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.Resources.resources
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.vbproj.GenerateResource.cache
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.vbproj.CoreCompileInputs.cache
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.exe
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.xml
+D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.pdb

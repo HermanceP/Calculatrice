@@ -41,6 +41,8 @@ Partial Class Form1
         Me.Virgule = New System.Windows.Forms.Button()
         Me.TextFormule = New System.Windows.Forms.TextBox()
         Me.TextNumero = New System.Windows.Forms.TextBox()
+        Me.Clear = New System.Windows.Forms.Button()
+        Me.ClearAll = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextResultat
@@ -227,11 +229,33 @@ Partial Class Form1
         Me.TextNumero.Text = "0"
         Me.TextNumero.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
+        'Clear
+        '
+        Me.Clear.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Clear.Location = New System.Drawing.Point(281, 245)
+        Me.Clear.Name = "Clear"
+        Me.Clear.Size = New System.Drawing.Size(73, 73)
+        Me.Clear.TabIndex = 19
+        Me.Clear.Text = "C"
+        Me.Clear.UseVisualStyleBackColor = True
+        '
+        'ClearAll
+        '
+        Me.ClearAll.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClearAll.Location = New System.Drawing.Point(281, 324)
+        Me.ClearAll.Name = "ClearAll"
+        Me.ClearAll.Size = New System.Drawing.Size(73, 73)
+        Me.ClearAll.TabIndex = 20
+        Me.ClearAll.Text = "CA"
+        Me.ClearAll.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1056, 591)
+        Me.Controls.Add(Me.ClearAll)
+        Me.Controls.Add(Me.Clear)
         Me.Controls.Add(Me.TextNumero)
         Me.Controls.Add(Me.TextFormule)
         Me.Controls.Add(Me.Virgule)
@@ -277,4 +301,6 @@ Partial Class Form1
     Friend WithEvents Virgule As Button
     Friend WithEvents TextFormule As TextBox
     Friend WithEvents TextNumero As TextBox
+    Friend WithEvents Clear As Button
+    Friend WithEvents ClearAll As Button
 End Class

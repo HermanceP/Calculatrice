@@ -1,9 +1,9 @@
 ﻿Public Class Form1
     Dim numero As String 'déclaration des variables
-    Dim currentNumber As Integer
+    Dim currentNumber As Double
     Dim resultat As Double
-    Dim operand1 As Integer
-    Dim operand2 As Integer
+    Dim operand1 As Double
+    Dim operand2 As Double
     Dim [Operator] As String
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -159,6 +159,10 @@
             operand1 = operand1 + currentNumber
         ElseIf [Operator] = "-" Then
             operand1 = operand1 - currentNumber
+        ElseIf [Operator] = "/" Then
+            operand1 = operand1 / currentNumber
+        ElseIf [Operator] = "*" Then
+            operand1 = operand1 * currentNumber
         ElseIf [Operator] = "" Then
             operand1 = currentNumber
         End If
@@ -174,6 +178,10 @@
             operand1 = operand1 + currentNumber
         ElseIf [Operator] = "-" Then
             operand1 = operand1 - currentNumber
+        ElseIf [Operator] = "/" Then
+            operand1 = operand1 / currentNumber
+        ElseIf [Operator] = "*" Then
+            operand1 = operand1 * currentNumber
         ElseIf [Operator] = "" Then
             operand1 = currentNumber
         End If
@@ -185,11 +193,55 @@
     End Sub
 
     Private Sub Multiplication_Click(sender As Object, e As EventArgs) Handles Multiplication.Click
+        If [Operator] = "+" Then
+            operand1 = operand1 + currentNumber
+        ElseIf [Operator] = "-" Then
+            operand1 = operand1 - currentNumber
+        ElseIf [Operator] = "/" Then
+            operand1 = operand1 / currentNumber
+        ElseIf [Operator] = "*" Then
+            operand1 = operand1 * currentNumber
+        ElseIf [Operator] = "" Then
+            operand1 = currentNumber
+        End If
 
+        TextResultat.Text = operand1
+        TextFormule.Text = TextFormule.Text + TextNumero.Text + " * "
+        TextNumero.Text = 0
+        [Operator] = "*"
     End Sub
 
     Private Sub Division_Click(sender As Object, e As EventArgs) Handles Division.Click
+        If [Operator] = "+" Then
+            operand1 = operand1 + currentNumber
+        ElseIf [Operator] = "-" Then
+            operand1 = operand1 - currentNumber
+        ElseIf [Operator] = "/" Then
+            operand1 = operand1 / currentNumber
+        ElseIf [Operator] = "*" Then
+            operand1 = operand1 * currentNumber
+        ElseIf [Operator] = "" Then
+            operand1 = currentNumber
+        End If
 
+        TextResultat.Text = operand1
+        TextFormule.Text = TextFormule.Text + TextNumero.Text + " / "
+        TextNumero.Text = 0
+        [Operator] = "/"
     End Sub
 
+    Private Sub Clear_Click(sender As Object, e As EventArgs) Handles Clear.Click
+        currentNumber = 0
+        TextNumero.Text = 0
+    End Sub
+
+    Private Sub ClearAll_Click(sender As Object, e As EventArgs) Handles ClearAll.Click
+        TextNumero.Text = 0
+        TextResultat.Text = ""
+        TextFormule.Text = ""
+        resultat = 0
+        operand1 = 0
+        operand2 = 0
+        [Operator] = ""
+    End Sub
 End Class

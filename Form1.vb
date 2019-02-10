@@ -131,10 +131,14 @@
     End Sub
 
     Private Sub Virgule_Click(sender As Object, e As EventArgs) Handles Virgule.Click
-
+        TextNumero.Text = TextNumero.Text + ","
     End Sub
 
     Private Sub Egal_Click(sender As Object, e As EventArgs) Handles Egal.Click
+        If TextNumero.Text.EndsWith(",") Then 'si le currentNumber finit par une virgule il faut l'enlever
+            TextNumero.Text = TextNumero.Text.Substring(0, TextNumero.Text.Length - 1)
+        End If
+
         TextFormule.Text = ""
         operand2 = currentNumber
         If [Operator] = "+" Then
@@ -145,6 +149,8 @@
             resultat = operand1 / operand2
         ElseIf [Operator] = "*" Then
             resultat = operand1 * operand2
+        ElseIf [Operator] = "" Then
+            resultat = currentNumber
         End If
         TextResultat.Text = resultat
         TextNumero.Text = 0
@@ -243,5 +249,19 @@
         operand1 = 0
         operand2 = 0
         [Operator] = ""
+    End Sub
+
+    Private Sub Supprimer_Click(sender As Object, e As EventArgs) Handles Supprimer.Click
+        If TextNumero.Text.Length > 0 And TextNumero.Text <> 0 Then
+            TextNumero.Text = TextNumero.Text.Substring(0, TextNumero.Text.Length - 1)
+        End If
+    End Sub
+
+    Private Sub ParentheseOuvrante_Click(sender As Object, e As EventArgs) Handles ParentheseOuvrante.Click
+
+    End Sub
+
+    Private Sub ParentheseFermante_Click(sender As Object, e As EventArgs) Handles ParentheseFermante.Click
+
     End Sub
 End Class

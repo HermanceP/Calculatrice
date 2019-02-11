@@ -10,3 +10,15 @@ D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice
 D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.exe
 D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.xml
 D:\DOCUMENTS\ING4\visual_studio\Calculatrice\Calculatrice\obj\Debug\Calculatrice.pdb
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\bin\Debug\Calculatrice.exe.config
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\bin\Debug\Calculatrice.exe
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\bin\Debug\Calculatrice.pdb
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\bin\Debug\Calculatrice.xml
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\obj\Debug\Calculatrice.vbprojAssemblyReference.cache
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\obj\Debug\Calculatrice.Form1.resources
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\obj\Debug\Calculatrice.Resources.resources
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\obj\Debug\Calculatrice.vbproj.GenerateResource.cache
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\obj\Debug\Calculatrice.vbproj.CoreCompileInputs.cache
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\obj\Debug\Calculatrice.exe
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\obj\Debug\Calculatrice.xml
+D:\ECE_PARIS\ING4\S8_Reseaux_Locaux_Industriels\TP1_Calculette\Calculatrice\obj\Debug\Calculatrice.pdb

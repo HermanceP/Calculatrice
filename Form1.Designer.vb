@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,8 +20,9 @@ Partial Class Form1
     'REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
     'Elle peut être modifiée à l'aide du Concepteur Windows Form.  
     'Ne la modifiez pas à l'aide de l'éditeur de code.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.TextResultat = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -273,7 +274,7 @@ Partial Class Form1
         'ParentheseFermante
         '
         Me.ParentheseFermante.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ParentheseFermante.Location = New System.Drawing.Point(371, 461)
+        Me.ParentheseFermante.Location = New System.Drawing.Point(231, 303)
         Me.ParentheseFermante.Name = "ParentheseFermante"
         Me.ParentheseFermante.Size = New System.Drawing.Size(73, 73)
         Me.ParentheseFermante.TabIndex = 22
@@ -283,7 +284,7 @@ Partial Class Form1
         'ParentheseOuvrante
         '
         Me.ParentheseOuvrante.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ParentheseOuvrante.Location = New System.Drawing.Point(292, 461)
+        Me.ParentheseOuvrante.Location = New System.Drawing.Point(152, 303)
         Me.ParentheseOuvrante.Name = "ParentheseOuvrante"
         Me.ParentheseOuvrante.Size = New System.Drawing.Size(73, 73)
         Me.ParentheseOuvrante.TabIndex = 23
@@ -295,7 +296,9 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.ClientSize = New System.Drawing.Size(1056, 591)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(1027, 591)
         Me.Controls.Add(Me.ParentheseOuvrante)
         Me.Controls.Add(Me.ParentheseFermante)
         Me.Controls.Add(Me.Supprimer)

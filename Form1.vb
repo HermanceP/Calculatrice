@@ -257,12 +257,4 @@
         End If
     End Sub
 
-    Private Sub ParentheseOuvrante_Click(sender As Object, e As EventArgs) Handles ParentheseOuvrante.Click
-
-    End Sub
-
-    Private Sub ParentheseFermante_Click(sender As Object, e As EventArgs) Handles ParentheseFermante.Click
-
-    End Sub
-
 End Class

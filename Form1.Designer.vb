@@ -45,8 +45,6 @@ Partial Class Form1
         Me.Clear = New System.Windows.Forms.Button()
         Me.ClearAll = New System.Windows.Forms.Button()
         Me.Supprimer = New System.Windows.Forms.Button()
-        Me.ParentheseFermante = New System.Windows.Forms.Button()
-        Me.ParentheseOuvrante = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextResultat
@@ -271,26 +269,6 @@ Partial Class Form1
         Me.Supprimer.Text = "Suppr"
         Me.Supprimer.UseVisualStyleBackColor = True
         '
-        'ParentheseFermante
-        '
-        Me.ParentheseFermante.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ParentheseFermante.Location = New System.Drawing.Point(231, 303)
-        Me.ParentheseFermante.Name = "ParentheseFermante"
-        Me.ParentheseFermante.Size = New System.Drawing.Size(73, 73)
-        Me.ParentheseFermante.TabIndex = 22
-        Me.ParentheseFermante.Text = ")"
-        Me.ParentheseFermante.UseVisualStyleBackColor = True
-        '
-        'ParentheseOuvrante
-        '
-        Me.ParentheseOuvrante.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ParentheseOuvrante.Location = New System.Drawing.Point(152, 303)
-        Me.ParentheseOuvrante.Name = "ParentheseOuvrante"
-        Me.ParentheseOuvrante.Size = New System.Drawing.Size(73, 73)
-        Me.ParentheseOuvrante.TabIndex = 23
-        Me.ParentheseOuvrante.Text = "("
-        Me.ParentheseOuvrante.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -299,8 +277,6 @@ Partial Class Form1
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1027, 591)
-        Me.Controls.Add(Me.ParentheseOuvrante)
-        Me.Controls.Add(Me.ParentheseFermante)
         Me.Controls.Add(Me.Supprimer)
         Me.Controls.Add(Me.ClearAll)
         Me.Controls.Add(Me.Clear)
@@ -352,6 +328,4 @@ Partial Class Form1
     Friend WithEvents Clear As Button
     Friend WithEvents ClearAll As Button
     Friend WithEvents Supprimer As Button
-    Friend WithEvents ParentheseFermante As Button
-    Friend WithEvents ParentheseOuvrante As Button
 End Class

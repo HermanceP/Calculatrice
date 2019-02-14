@@ -120,6 +120,9 @@
         operand1 = 0
         operand2 = 0
         [Operator] = ""
+
+
+
     End Sub
 
     Private Sub Addition_Click(sender As Object, e As EventArgs) Handles Addition.Click

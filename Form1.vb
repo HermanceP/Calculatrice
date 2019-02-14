@@ -252,9 +252,13 @@
     End Sub
 
     Private Sub Supprimer_Click(sender As Object, e As EventArgs) Handles Supprimer.Click
-        If TextNumero.Text.Length > 0 And TextNumero.Text <> 0 Then
+        If TextNumero.Text <> 0 Then
             TextNumero.Text = TextNumero.Text.Substring(0, TextNumero.Text.Length - 1)
         End If
+        If TextNumero.Text = String.Empty Then
+            TextNumero.Text = 0
+        End If
+        'TextNumero.Text.Length > 0 And 
     End Sub
 
 End Class

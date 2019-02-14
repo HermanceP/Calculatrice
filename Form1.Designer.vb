@@ -51,9 +51,9 @@ Partial Class Form1
         '
         Me.TextResultat.BackColor = System.Drawing.SystemColors.Menu
         Me.TextResultat.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextResultat.Location = New System.Drawing.Point(685, 28)
+        Me.TextResultat.Location = New System.Drawing.Point(531, 28)
         Me.TextResultat.Name = "TextResultat"
-        Me.TextResultat.Size = New System.Drawing.Size(100, 75)
+        Me.TextResultat.Size = New System.Drawing.Size(351, 75)
         Me.TextResultat.TabIndex = 0
         '
         'Button1
@@ -221,7 +221,7 @@ Partial Class Form1
         Me.TextFormule.BackColor = System.Drawing.SystemColors.Menu
         Me.TextFormule.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextFormule.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.TextFormule.Location = New System.Drawing.Point(371, 28)
+        Me.TextFormule.Location = New System.Drawing.Point(198, 28)
         Me.TextFormule.Name = "TextFormule"
         Me.TextFormule.Size = New System.Drawing.Size(308, 15)
         Me.TextFormule.TabIndex = 17
@@ -232,7 +232,7 @@ Partial Class Form1
         Me.TextNumero.BackColor = System.Drawing.SystemColors.Menu
         Me.TextNumero.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextNumero.Location = New System.Drawing.Point(371, 72)
+        Me.TextNumero.Location = New System.Drawing.Point(198, 72)
         Me.TextNumero.Name = "TextNumero"
         Me.TextNumero.Size = New System.Drawing.Size(308, 31)
         Me.TextNumero.TabIndex = 18
